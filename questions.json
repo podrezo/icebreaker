@@ -19,9 +19,6 @@
       "q": "What is the biggest fear you've faced?"
     },
     {
-      "q": "Have you ever had a near-death experience?"
-    },
-    {
       "q": "What does 'live a good life' mean to you?"
     },
     {
@@ -131,9 +128,6 @@
     },
     {
       "q": "What's is your one Genie wish?"
-    },
-    {
-      "q": "If you could kill someone with no repercussions (not even moral), who would you?"
     },
     {
       "q": "If money was not an issue, what would you decide to do with your life?"
@@ -433,7 +427,7 @@
       "q": "If you've had more than one job, which job taught you the most?"
     },
     {
-      "q": "If you could change one thing about yourself physically, what would you change? "
+      "q": "If you could change one thing about yourself physically, what would you change?"
     },
     {
       "q": "What single event or decision do you think most affected the rest of your life? Was there a turning point in your life?"
@@ -445,7 +439,7 @@
       "q": "Some historical figures have epithets attached to their names, like The Mad or The Wise. What would you like yours to be?"
     },
     {
-      "q": "What was the best year of your life? The worst? "
+      "q": "What was the best year of your life? The worst?"
     },
     {
       "q": "What one thing, whether it's something you did or something you made or something you caused to happen, would you like to be remembered by?"
@@ -457,7 +451,7 @@
       "q": "What is your biggest non-academic, non work-related accomplishment?"
     },
     {
-      "q": "What is your biggest academic or work-related accomplishment? "
+      "q": "What is your biggest academic or work-related accomplishment?"
     },
     {
       "q": "What is something you've done/felt/seen/etc. that you wish you could experience again for the first time?"
@@ -478,10 +472,7 @@
       "q": "What cliche do you think is bullshit? What cliche do you think holds truth?"
     },
     {
-      "q": "What do you fear, despite having no real reason to do so? Basically, what is an irrational fear you have? "
-    },
-    {
-      "q": "Imagine that you could choose when and how you die. At what age would you like to die (no maximum here) and how would you like to go?"
+      "q": "What do you fear, despite having no real reason to do so? Basically, what is an irrational fear you have?"
     },
     {
       "q": "What character archetype is closest to your personality?"
@@ -496,10 +487,10 @@
       "q": "Is there a song/movie/food/etc. that strongly reminds you of someone whenever you experience it? Who does it remind you of?"
     },
     {
-      "q": "What is your ideal birthday? Not the date, but rather your ideal way to spend the day. "
+      "q": "What is your ideal birthday? Not the date, but rather your ideal way to spend the day."
     },
     {
-      "q": "Are there any smells that bring back memories for you? What are they, and what memories do they elicit? "
+      "q": "Are there any smells that bring back memories for you? What are they, and what memories do they elicit?"
     },
     {
       "q": "What is the closest you've ever come to dying?"
@@ -523,7 +514,7 @@
       "q": "What is your least popular or most controversial opinion?"
     },
     {
-      "q": "If you could live in another time period but stay in the same place you live now, when would you want to live? "
+      "q": "If you could live in another time period but stay in the same place you live now, when would you want to live?"
     },
     {
       "q": "Do you have any conspiracy theories? If so, what are they?"
@@ -535,10 +526,10 @@
       "q": "What fictional character do you most relate to?"
     },
     {
-      "q": "What have you been meaning to do but haven't yet done? Why haven't you done it? "
+      "q": "What have you been meaning to do but haven't yet done? Why haven't you done it?"
     },
     {
-      "q": "Let's say that regardless of what job you have, you'll make $100,000 a year (£78,000; €90,000), enough to live comfortably without having to worry about expenses. What job would you choose to have if money were no object?"
+      "q": "Let's say that regardless of what job you have, you'll make enough to live comfortably without having to worry about expenses. What job would you choose to have if money were no object?"
     },
     {
       "q": "What do you get the most compliments about?"
@@ -547,7 +538,7 @@
       "q": "Have you ever had an epiphany? What was it about, and what sparked the realization?"
     },
     {
-      "q": "What is the most important quality you look for in a friend? A romantic partner?"
+      "q": "What is the most important quality you look for in a friend?"
     },
     {
       "q": "What is a childhood habit or preference that you'll never outgrow?"
@@ -574,10 +565,10 @@
       "q": "If you could ask your future self one thing, what would it be?"
     },
     {
-      "q": "What is something that gets more interesting the more you learn about it? "
+      "q": "What is something that gets more interesting the more you learn about it?"
     },
     {
-      "q": "What would you title your memoir? "
+      "q": "What would you title your memoir?"
     },
     {
       "q": "What was the hardest decision you've ever made?"
@@ -592,13 +583,10 @@
       "q": "How would you summarize your life so far in one sentence?"
     },
     {
-      "q": "You're old and on your deathbed. With your last breath, you may deliver your last words to anyone you know. What do you say and who do you say it to?"
-    },
-    {
       "q": "If seasons never changed, which would you most like to live in eternally?"
     },
     {
-      "q": "What is the best advice you've ever received? "
+      "q": "What is the best advice you've ever received?"
     },
     {
       "q": "You have one year to live: how do you spend it?"
@@ -607,7 +595,7 @@
       "q": "Think of the best teacher you've ever had. What did they teach, and what made them so special?"
     },
     {
-      "q": "What is something you never thought you'd be able to do, until you actually did it? "
+      "q": "What is something you never thought you'd be able to do, until you actually did it?"
     },
     {
       "q": "If you could go back and relive one day in your life without changing anything about it, which day would you revisit?"
@@ -622,10 +610,10 @@
       "q": "What was the scariest moment of your life thus far?"
     },
     {
-      "q": "If you lived in a colonial or Medieval village, what would your job be? "
+      "q": "If you lived in a colonial or Medieval village, what would your job be?"
     },
     {
-      "q": "Have you ever desired or longed for something, but once you got it, discovered it was overrated? "
+      "q": "Have you ever desired or longed for something, but once you got it, discovered it was overrated?"
     },
     {
       "q": "What is something you've done that you recommend everyone do before they die?"
@@ -658,7 +646,7 @@
       "q": "What's the best outcome of a complete accident you've experienced in your life?"
     },
     {
-      "q": "Have you ever gotten the giggles in an inappropriate place? Where was it? "
+      "q": "Have you ever gotten the giggles in an inappropriate place? Where was it?"
     },
     {
       "q": "What's the best lesson you've learned from a difficult situation?"
@@ -673,7 +661,7 @@
       "q": "What's something you wish you enjoyed but never can seem to?"
     },
     {
-      "q": "If you could play any instrument or learn any language in two hours, which would you choose and how would you use your talent? "
+      "q": "If you could play any instrument or learn any language in two hours, which would you choose and how would you use your talent?"
     },
     {
       "q": "Have you ever challenged or questioned a belief you held for a long time? What prompted it and what was the result?"
@@ -682,7 +670,7 @@
       "q": "What, if anything, is too serious to be joked about?"
     },
     {
-      "q": "What's the coolest project you've ever worked on? "
+      "q": "What's the coolest project you've ever worked on?"
     },
     {
       "q": "Are you currently pursuing what makes you happy? Why or why not?"
@@ -718,25 +706,25 @@
       "q": "What is one small change you made in your life that had a much bigger impact that you anticipated?"
     },
     {
-      "q": "What historical event would you most like to have experienced? "
+      "q": "What historical event would you most like to have experienced?"
     },
     {
-      "q": "Do you believe in fate, the idea that 'whatever is meant to happen will happen'? Or do you believe more in a universe governed mainly by chaos and the unknown? "
+      "q": "Do you believe in fate, the idea that 'whatever is meant to happen will happen'? Or do you believe more in a universe governed mainly by chaos and the unknown?"
     },
     {
-      "q": "What experience are you most proud of yourself for making it through? "
+      "q": "What experience are you most proud of yourself for making it through?"
     },
     {
       "q": "In a 'Freaky Friday' situation where you woke up in someone else's body, who would you like to be for a day and have them inhabit your body?"
     },
     {
-      "q": "What's a quirk of yours that few people know about? "
+      "q": "What's a quirk of yours that few people know about?"
     },
     {
       "q": "What's the craziest thing you've ever done?"
     },
     {
-      "q": "Are you currently holding a grudge against anyone or anything? "
+      "q": "Are you currently holding a grudge against anyone or anything?"
     },
     {
       "q": "What small thing annoys you to an irrational degree?"
@@ -748,19 +736,16 @@
       "q": "What historical figure do you most admire and why?"
     },
     {
-      "q": "Was there ever a moment when you thought you were going to die?"
-    },
-    {
       "q": "What was the best opportunity you ever received?"
     },
     {
       "q": "What always makes you nostalgic?"
     },
     {
-      "q": "What would you like to accomplish before the year is over? "
+      "q": "What would you like to accomplish before the year is over?"
     },
     {
-      "q": "Have you ever been offered a good opportunity but refused? What was the situation? "
+      "q": "Have you ever been offered a good opportunity but refused? What was the situation?"
     },
     {
       "q": "Would you prefer your family to be smaller or larger than it is now, or neither? Do you wish you were more involved with your extended family?"
@@ -769,13 +754,10 @@
       "q": "What is something you're hypocritical about; something you believe but have a hard time sticking to in practice?"
     },
     {
-      "q": "Has anyone close to you ever died? Was there anything that helped you to move past their death? "
-    },
-    {
       "q": "What is something you're inherently bad at, no matter how hard you try to improve?"
     },
     {
-      "q": "Do you have any inherent talents? "
+      "q": "Do you have any inherent talents?"
     },
     {
       "q": "What small, insignificant thing gives you joy?"
@@ -784,7 +766,7 @@
       "q": "If you could live anywhere in the world in any kind of domicile, and money was no object, where would you live and what would your dwelling be like?"
     },
     {
-      "q": "What is one thing you've done/seen/eaten/etc. that turned out to be really good, even though you initially didn't expect it to be? "
+      "q": "What is one thing you've done/seen/eaten/etc. that turned out to be really good, even though you initially didn't expect it to be?"
     },
     {
       "q": "In the movie Inside Out, each person has a set of 'core memories' that define who they are and how they behave. What's one of yours?"
@@ -808,16 +790,13 @@
       "q": "What cause do you strongly support, even though it wouldn't directly benefit you?"
     },
     {
-      "q": "What book, movie, film, or video game had the best ending? "
+      "q": "What book, movie, film, or video game had the best ending?"
     },
     {
-      "q": "You have enough money to make a sizeable charitable donation--to which charity do you donate it and why? Or, if you choose not to go through a charity, how would you spend this money in a philanthropic way? "
+      "q": "You have enough money to make a sizeable charitable donation--to which charity do you donate it and why? Or, if you choose not to go through a charity, how would you spend this money in a philanthropic way?"
     },
     {
       "q": "What is something weird you do that you wonder if other people do as well?"
-    },
-    {
-      "q": "Suddenly you're in a horror film, running from a masked murderer. Your only companion is the last person you texted, and your only weapon is whatever is currently closest to your left hand. What is the movie like and do you think you could survive?"
     },
     {
       "q": "What is one thing you're tired of telling/explaining to people?"
@@ -859,9 +838,6 @@
       "q": "What are you glad you learned as a child?"
     },
     {
-      "q": "If you could know either when you die or how, which would you choose, if either?"
-    },
-    {
       "q": "What is something you had to learn the hard way?"
     },
     {
@@ -880,7 +856,7 @@
       "q": "What was the hardest time of your life, and how did you make it through?"
     },
     {
-      "q": "What is the best compliment you've ever received? "
+      "q": "What is the best compliment you've ever received?"
     },
     {
       "q": "What character trait instantly makes you respect someone?"
@@ -940,9 +916,6 @@
       "q": "What is your least favorite question to answer?"
     },
     {
-      "q": "What is the biggest punishment you've ever received? Getting grounded, disciplinary file, prison?"
-    },
-    {
       "q": "What about yourself is completely different from what you were like 10 years ago?"
     },
     {
@@ -967,9 +940,6 @@
       "q": "What changed the way you see the world?"
     },
     {
-      "q": "If you died today, what would be your biggest regret?"
-    },
-    {
       "q": "What is a completely rational, justified fear that you have?"
     },
     {
@@ -979,7 +949,7 @@
       "q": "What is something you hate that most people love?"
     },
     {
-      "q": "What do you wish was possible? "
+      "q": "What do you wish was possible?"
     },
     {
       "q": "Who was the last person you called, and what did you talk about?"
@@ -994,7 +964,7 @@
       "q": "What is something that happened to you, despite the odds being stacked against you?"
     },
     {
-      "q": "If you were a superhero, what would be your name, costume, and catchphrase? Who would you fight? "
+      "q": "If you were a superhero, what would be your name, costume, and catchphrase? Who would you fight?"
     },
     {
       "q": "What was the last song that got stuck in your head?"
@@ -1003,16 +973,10 @@
       "q": "What is the worst thing you've ever smelled?"
     },
     {
-      "q": "Assume that god exists. For our purposes, he created the universe and has witnessed everything that has happened since. He also has control over everyone's lives and destinies. Once a millennium, he appears to somebody in his human form and will answer one question with absolute truth. He has chosen you. What do you ask him? "
-    },
-    {
-      "q": "If you could have any superpower for just one day, but you get to choose the superpower and when you activate it, what would you choose and when would you use it? "
+      "q": "If you could have any superpower for just one day, but you get to choose the superpower and when you activate it, what would you choose and when would you use it?"
     },
     {
       "q": "In what way have you experienced the saying, 'You don't know what you have until you lose it'?"
-    },
-    {
-      "q": "Someone you love will die at the end of today. Only you know this; they don't. How do you spend your last day with them and when do you tell them that they're going to die, if ever? "
     },
     {
       "q": "What do you wish you remembered better?"
@@ -1027,16 +991,10 @@
       "q": "Have you ever gotten a 'hunch' about something that turned out to be true?"
     },
     {
-      "q": "What is the most dangerous thing you've ever done, and why did you do it? "
-    },
-    {
-      "q": "What do you think is worth dying for, if anything? "
+      "q": "What is the most dangerous thing you've ever done, and why did you do it?"
     },
     {
       "q": "Is there anything you have vowed never to do?"
-    },
-    {
-      "q": "Under what circumstances do you think you could kill someone, if any?"
     },
     {
       "q": "What's your favorite memory with your best friend?"
@@ -1049,9 +1007,6 @@
     },
     {
       "q": "What object best defines who you are?"
-    },
-    {
-      "q": "What is the strongest emotional connection you've ever felt with a person? (It doesn't have to be romantic.)"
     },
     {
       "q": "Do you have or have you ever had a nemesis?"
@@ -1067,9 +1022,6 @@
     },
     {
       "q": "What is the dumbest purchase you've ever made?"
-    },
-    {
-      "q": "If you had to write your own eulogy to be read at your funeral, what would it say in brief?"
     },
     {
       "q": "You have the opportunity to give a 10 minute speech which will be broadcast worldwide. What do you say?"
@@ -1177,9 +1129,6 @@
       "q": "What instantly makes you feel like a child again?"
     },
     {
-      "q": "What do you think happens after we die, if anything?"
-    },
-    {
       "q": "Have you ever written a thank-you note to someone who created or helped create something you enjoy? If not, who would you write to and what would you thank them for?"
     },
     {
@@ -1204,7 +1153,7 @@
       "q": "What is something you wish people cared more about? How do you think the world would be better if people cared more about it?"
     },
     {
-      "q": "How do you feel about the future right now? Are you nervous, excited, unenthused? "
+      "q": "How do you feel about the future right now? Are you nervous, excited, unenthused?"
     },
     {
       "q": "Have you ever cried in public? If so, was the reason?"
@@ -1243,7 +1192,7 @@
       "q": "Have you ever hidden something from your family or friends? How long did you hide it for, and why?"
     },
     {
-      "q": "How does the current generation of children differ from what children were like when you were younger? "
+      "q": "How does the current generation of children differ from what children were like when you were younger?"
     },
     {
       "q": "How would your life change if you inherited $100,000 tomorrow?"
@@ -1267,10 +1216,7 @@
       "q": "What are you looking forward to?"
     },
     {
-      "q": "What activity makes you lose track of time? "
-    },
-    {
-      "q": "What is the most useless talent or skill you possess? How and why did you learn it?"
+      "q": "What activity makes you lose track of time?"
     },
     {
       "q": "If you opened a restaurant, what would you name it, and what cuisine would you serve? What would the atmosphere be like?"
@@ -1288,7 +1234,7 @@
       "q": "What's something you went through that you wouldn't wish on your worst enemy?"
     },
     {
-      "q": " When do you feel like the best version of yourself?"
+      "q": "When do you feel like the best version of yourself?"
     },
     {
       "q": "What keeps you up at night?"
