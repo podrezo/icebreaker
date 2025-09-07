@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Icebreaker",
+  "version": "0.0.1",
+  "description": "Generate icebreaker questions for your next meeting",
+  "icons": {
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": [
+    "sidePanel"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
