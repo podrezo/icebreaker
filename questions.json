@@ -67,9 +67,6 @@
       "q": "What memory brings you a sense of peace and comfort?"
     },
     {
-      "q": "Who do you wish was still alive?"
-    },
-    {
       "q": "Can you recall a time you felt truly at peace?"
     },
     {
@@ -358,9 +355,6 @@
       "q": "What was the hardest decision you've ever made?"
     },
     {
-      "q": "You have one year to live. How do you spend it?"
-    },
-    {
       "q": "What is your favorite word?"
     },
     {
@@ -380,9 +374,6 @@
     },
     {
       "q": "What expensive thing is definitely worth it?"
-    },
-    {
-      "q": "Who do you wish were still alive?"
     },
     {
       "q": "What is the smallest thing for which you are grateful?"
@@ -412,9 +403,6 @@
       "q": "What is the quality you admire the most in the person you dislike the most?"
     },
     {
-      "q": "What was the most recent thing that made you cry?"
-    },
-    {
       "q": "What are the books/movies/games that never get old and always make you feel better when you get down?"
     },
     {
@@ -439,7 +427,7 @@
       "q": "Some historical figures have epithets attached to their names, like The Mad or The Wise. What would you like yours to be?"
     },
     {
-      "q": "What was the best year of your life? The worst?"
+      "q": "What was the best year of your life?"
     },
     {
       "q": "What one thing, whether it's something you did or something you made or something you caused to happen, would you like to be remembered by?"
@@ -449,9 +437,6 @@
     },
     {
       "q": "What is your biggest non-academic, non work-related accomplishment?"
-    },
-    {
-      "q": "What is your biggest academic or work-related accomplishment?"
     },
     {
       "q": "What is something you've done/felt/seen/etc. that you wish you could experience again for the first time?"
@@ -493,7 +478,7 @@
       "q": "Are there any smells that bring back memories for you? What are they, and what memories do they elicit?"
     },
     {
-      "q": "What is the closest you've ever come to dying?"
+      "q": "What is the most challenging situation you've ever survived or overcome?"
     },
     {
       "q": "Do you have a personal mantra? If so, what is it?"
@@ -521,9 +506,6 @@
     },
     {
       "q": "What is the 'strangest' thing you believe in? Do you believe in the supernatural? Heaven, angels, ghosts? Luck, fate, magic? Mind reading, lizard people, the Illuminati? Where do you draw the line of belief and disbelief?"
-    },
-    {
-      "q": "What fictional character do you most relate to?"
     },
     {
       "q": "What have you been meaning to do but haven't yet done? Why haven't you done it?"
@@ -571,25 +553,16 @@
       "q": "What would you title your memoir?"
     },
     {
-      "q": "What was the hardest decision you've ever made?"
-    },
-    {
       "q": "What word would your best friend use to describe you? Your parents? Your significant other (if applicable)?"
     },
     {
       "q": "For what would you most like to become famous?"
     },
     {
-      "q": "How would you summarize your life so far in one sentence?"
-    },
-    {
       "q": "If seasons never changed, which would you most like to live in eternally?"
     },
     {
       "q": "What is the best advice you've ever received?"
-    },
-    {
-      "q": "You have one year to live: how do you spend it?"
     },
     {
       "q": "Think of the best teacher you've ever had. What did they teach, and what made them so special?"
@@ -616,10 +589,7 @@
       "q": "Have you ever desired or longed for something, but once you got it, discovered it was overrated?"
     },
     {
-      "q": "What is something you've done that you recommend everyone do before they die?"
-    },
-    {
-      "q": "What do you know isn't real, but want badly for it to exist?"
+      "q": "What is something you've done that you recommend everyone experience in their lifetime?"
     },
     {
       "q": "What is the greatest physical pain you've ever felt?"
@@ -695,9 +665,6 @@
     },
     {
       "q": "What is the worst thing about the place you live?"
-    },
-    {
-      "q": "What is the best thing about the place you live?"
     },
     {
       "q": "Does anybody beside yourself know your deepest secret? Do you ever intend to tell anyone?"
@@ -808,12 +775,6 @@
       "q": "What was the busiest day of your life thus far?"
     },
     {
-      "q": "What was the greatest day of your life thus far?"
-    },
-    {
-      "q": "What was the worst day of your life thus far?"
-    },
-    {
       "q": "What is one thing you're good at that people don't expect?"
     },
     {
@@ -886,16 +847,13 @@
       "q": "What historical figure would you most like to sit and have a conversation with over tea?"
     },
     {
-      "q": "Who do you wish was still alive?"
-    },
-    {
       "q": "Is there anything you can recite from memory?"
     },
     {
       "q": "How has your year been going?"
     },
     {
-      "q": "How long is your ideal lifespan? Would you want to live to 200? 500? 1,000?"
+      "q": "What would you want to accomplish if you had unlimited time to pursue your goals?"
     },
     {
       "q": "How are you? No, really. How are you really? Now, today, at this moment?"
@@ -905,9 +863,6 @@
     },
     {
       "q": "What's the most selfish thing you've done?"
-    },
-    {
-      "q": "What's the most selfless thing you've done?"
     },
     {
       "q": "If you could live in any fictional world, where would it be and why?"
@@ -977,9 +932,6 @@
     },
     {
       "q": "In what way have you experienced the saying, 'You don't know what you have until you lose it'?"
-    },
-    {
-      "q": "What do you wish you remembered better?"
     },
     {
       "q": "Who is the single best person you have ever met? What makes them the best?"
@@ -1072,9 +1024,6 @@
       "q": "What is a misconception people have about your profession?"
     },
     {
-      "q": "What do you want written on your headstone?"
-    },
-    {
       "q": "What situation made you feel like a complete idiot?"
     },
     {
@@ -1148,9 +1097,6 @@
     },
     {
       "q": "What is something you wish people cared less about? How do you think the world would be better if people cared less about it?"
-    },
-    {
-      "q": "What is something you wish people cared more about? How do you think the world would be better if people cared more about it?"
     },
     {
       "q": "How do you feel about the future right now? Are you nervous, excited, unenthused?"
@@ -1232,9 +1178,6 @@
     },
     {
       "q": "What's something you went through that you wouldn't wish on your worst enemy?"
-    },
-    {
-      "q": "When do you feel like the best version of yourself?"
     },
     {
       "q": "What keeps you up at night?"
