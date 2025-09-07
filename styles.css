@@ -2,7 +2,7 @@
   --primary-color: #46a5ee;
   --secondary-color: #ff6b76;
   --text-color: var(--primary-color);
-  --background-color: #fff;
+  --background-color: #faf6e6;
   --spacing: 32px;
 }
 
@@ -26,15 +26,27 @@ body {
   text-align: center;
   font-style: italic;
   color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) / 2);
+}
+
+.actions {
+  display: flex;
+  gap: calc(var(--spacing) / 2);
+}
+
+#random-btn {
+  flex: 1;
 }
 
 #qotd {
   flex: 1;
   flex-basis: 100%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: manual;
 }
 
 .footer {
@@ -66,4 +78,20 @@ a:hover {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.actions button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: 900;
+}
+
+button {
+  border-radius: 4px;
+  border: 0;
+  padding: 8px;
+  font-size: 0.6em;
+}
+
+button:hover {
+  background-image: linear-gradient(#0000, #0000000d 40%, #0000001a);
 }
