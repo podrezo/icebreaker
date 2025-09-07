@@ -2,15 +2,23 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icebreaker Questions</title>
-    <link rel="stylesheet" href="purecss.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icebreaker Questions</title>
+  <link rel="stylesheet" href="purecss.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-Hello world
-
+  <div class="watermark-container">
+    <img class="watermark-image" src="images/icon-128.png" alt="Icebreaker">
+  </div>
+  <div class="container">
+    <div class="header">
+      Icebreaker Question #<span id="question-number"></span>
+    </div>
+    <div id="qotd"></div>
+    <div class="footer">Icebreaker Chrome Extension created by <a href="https://podrezo.com">Petro Podrezo</a></div>
+  </div>
+  <script type="module" src="question-loader.js"></script>
 </body>
 </html>
