@@ -8,7 +8,6 @@ class QuestionLoader {
     async init() {
         try {
             await this.loadQuestions();
-            this.setupEventListeners();
             this.displayRandomQuestion();
         } catch (error) {
             console.error('Error initializing QuestionLoader:', error);
@@ -45,48 +44,34 @@ class QuestionLoader {
     }
 
     displayCurrentQuestion() {
-        const questionElement = document.getElementById('qotd');
-        const questionNumberElement = document.getElementById('question-number');
+        const $questionElement = $('#qotd');
+        const $questionNumberElement = $('#question-number');
 
-        if (!questionElement) {
+        if (!$questionElement.length) {
             console.error('Element with ID "qotd" not found');
             return;
         }
 
-        if (!questionNumberElement) {
+        if (!$questionNumberElement.length) {
             console.error('Element with ID "question-number" not found');
             return;
         }
 
         if (this.questions.length === 0) {
-            questionElement.textContent = "No questions available";
-            questionNumberElement.textContent = '? of ?';
+            $questionElement.text("No questions available");
+            $questionNumberElement.text('? of ?');
             return;
         }
 
         const question = this.questions[this.currentIndex];
-        questionElement.textContent = question.q;
+        $questionElement.text(question.q);
 
         // Set question number (index + 1 for 1-based numbering)
-        questionNumberElement.textContent = `${this.currentIndex + 1} of ${this.questions.length}`;
+        $questionNumberElement.text(`${this.currentIndex + 1} of ${this.questions.length}`);
     }
 
     setupEventListeners() {
-        const prevBtn = document.getElementById('prev-btn');
-        const nextBtn = document.getElementById('next-btn');
-        const randomBtn = document.getElementById('random-btn');
-
-        if (prevBtn) {
-            prevBtn.addEventListener('click', () => this.previousQuestion());
-        }
-
-        if (nextBtn) {
-            nextBtn.addEventListener('click', () => this.nextQuestion());
-        }
-
-        if (randomBtn) {
-            randomBtn.addEventListener('click', () => this.randomQuestion());
-        }
+        // Method removed; listeners will be attached externally in document ready
     }
 
     previousQuestion() {
@@ -117,14 +102,30 @@ class QuestionLoader {
     }
 
     displayError() {
-        const questionElement = document.getElementById('qotd');
-        if (questionElement) {
-            questionElement.textContent = "Failed to load question. Please try refreshing the page.";
+        const $questionElement = $('#qotd');
+        if ($questionElement.length) {
+            $questionElement.text("Failed to load question. Please try refreshing the page.");
         }
     }
 }
 
 // Initialize the question loader when the DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new QuestionLoader();
+$(document).ready(() => {
+    const loader = new QuestionLoader();
+
+    const $prevBtn = $('#prev-btn');
+    const $nextBtn = $('#next-btn');
+    const $randomBtn = $('#random-btn');
+
+    if ($prevBtn.length) {
+        $prevBtn.on('click', () => loader.previousQuestion());
+    }
+
+    if ($nextBtn.length) {
+        $nextBtn.on('click', () => loader.nextQuestion());
+    }
+
+    if ($randomBtn.length) {
+        $randomBtn.on('click', () => loader.randomQuestion());
+    }
 });

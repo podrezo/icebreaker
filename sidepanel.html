@@ -5,24 +5,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Icebreaker Questions</title>
+  <link rel="stylesheet" href="matcha.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="watermark-container">
+  <!-- <div class="watermark-container">
     <img class="watermark-image" src="images/icon-128.png" alt="Icebreaker">
-  </div>
+  </div> -->
+  <header class="centered">
+    <h1>Question <mark id="question-number"></mark></h1>
+    <form method="get" onsubmit="event.preventDefault()">
+      <button class="default" id="prev-btn">←</button>
+      <button class="default" id="random-btn">Random</button>
+      <button class="default" id="next-btn">→</button>
+    </form>
+  </header>
+
   <div class="container">
-    <div class="header">
-      <div>Icebreaker Question #<span id="question-number"></span></div>
-      <div class="actions">
-        <button id="prev-btn">←</button>
-        <button id="random-btn">Random</button>
-        <button id="next-btn">→</button>
-      </div>
-    </div>
     <div id="qotd"></div>
-    <div class="footer">Extension by <strong>Petro Podrezo</strong>. Credit for questions goes to their respective authors.</div>
   </div>
+
+  <footer class="mt-3 muted centered">
+    <small>Extension by <strong>Petro Podrezo</strong>. Credit for questions goes to their respective authors.</small>
+  </footer>
+  <script src="jquery-3.7.1.slim.min.js"></script>
   <script type="module" src="question-loader.js"></script>
 </body>
 </html>
