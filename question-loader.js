@@ -57,17 +57,11 @@ class QuestionLoader {
             return;
         }
 
-        if (this.questions.length === 0) {
-            $questionElement.text("No questions available");
-            $questionNumberElement.text('? of ?');
-            return;
-        }
-
         const question = this.questions[this.currentIndex];
         $questionElement.text(question.q);
 
         // Set question number (index + 1 for 1-based numbering)
-        $questionNumberElement.text(`${this.currentIndex + 1} of ${this.questions.length}`);
+        $questionNumberElement.text(`#${this.currentIndex + 1}`);
     }
 
     setupEventListeners() {
