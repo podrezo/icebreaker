@@ -15,18 +15,30 @@
   <header class="centered mt-.75">
     <h1>Question <mark><span id="question-number"></span></mark></h1>
     <form method="get" onsubmit="event.preventDefault()">
-      <button class="default" id="prev-btn">←</button>
-      <button class="default" id="random-btn">Random</button>
-      <button class="default" id="next-btn">→</button>
+      <button class="default larger" id="prev-btn" aria-label="Previous question">
+        <svg aria-hidden="true" tabindex="-1" class="icon">
+          <use href="images/arrow-left.svg" style="color: var(--dark-default);"></use>
+        </svg>
+      </button>
+      <button class="default larger" id="random-btn" aria-label="Random">
+        <svg aria-hidden="true" tabindex="-1" class="icon">
+          <use href="images/dice.svg" style="color: var(--dark-default);"></use>
+        </svg>
+      </button>
+      <button class="default larger" id="next-btn">
+        <svg aria-hidden="true" tabindex="-1" class="icon" aria-label="Next question">
+          <use href="images/arrow-right.svg" style="color: var(--dark-default);"></use>
+        </svg>
+      </button>
     </form>
   </header>
 
-  <main class="larger centered">
-    <div id="qotd"></div>
+  <main class="larger centered mt-3 active">
+    <b><div id="qotd"></div></b>
   </main>
 
   <footer class="mt-3 muted centered">
-    <small>"Icebreaker" Chrome extension is made by <b><a href="https://podrezo.com">Petro Podrezo</a></b>. Credit for question text goes to their respective authors. Powered by <a href="https://matcha.mizu.sh/" target="_blank">Matcha CSS</a> & <a href="https://jquery.com/" target="_blank">jQuery</a>.</small>
+    <small><i>Icebreaker</i> Chrome extension is made by <b><a href="https://podrezo.com">Petro Podrezo</a></b>. Credit for question text goes to their respective authors. Powered by <a href="https://matcha.mizu.sh/" target="_blank">Matcha CSS</a> & <a href="https://jquery.com/" target="_blank">jQuery</a>.</small>
   </footer>
   <script src="jquery-3.7.1.slim.min.js"></script>
   <script type="module" src="question-loader.js"></script>
