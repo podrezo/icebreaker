@@ -62,6 +62,18 @@ class QuestionLoader {
 
         // Set question number (index + 1 for 1-based numbering)
         $questionNumberElement.text(`#${this.currentIndex + 1}`);
+
+        // Enable/disable prev/next buttons based on bounds
+        const $prevBtn = $('#prev-btn');
+        const $nextBtn = $('#next-btn');
+
+        if ($prevBtn.length) {
+            $prevBtn.prop('disabled', this.currentIndex <= 0);
+        }
+
+        if ($nextBtn.length) {
+            $nextBtn.prop('disabled', this.currentIndex >= this.questions.length - 1);
+        }
     }
 
     setupEventListeners() {
@@ -70,21 +82,17 @@ class QuestionLoader {
 
     previousQuestion() {
         if (this.questions.length === 0) return;
-
-        this.currentIndex = this.currentIndex === 0
-            ? this.questions.length - 1
-            : this.currentIndex - 1;
-
+        // Don't wrap; if already at first question, do nothing
+        if (this.currentIndex === 0) return;
+        this.currentIndex = this.currentIndex - 1;
         this.displayCurrentQuestion();
     }
 
     nextQuestion() {
         if (this.questions.length === 0) return;
-
-        this.currentIndex = this.currentIndex === this.questions.length - 1
-            ? 0
-            : this.currentIndex + 1;
-
+        // Don't wrap; if already at last question, do nothing
+        if (this.currentIndex >= this.questions.length - 1) return;
+        this.currentIndex = this.currentIndex + 1;
         this.displayCurrentQuestion();
     }
 
