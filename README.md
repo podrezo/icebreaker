@@ -18,6 +18,6 @@ Ideal for team leaders, HR professionals, meeting facilitators, and anyone looki
 
 ## To do
 
-- [ ] Light/Dark mode
+- [X] ~Light/Dark mode~
 - [ ] Generate questions with AI
 - [ ] Track which questions have been asked
