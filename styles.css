@@ -1,6 +1,8 @@
 #qotd {
+  white-space: normal;
   overflow-wrap: break-word;
-  hyphens: manual;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .watermark-image {
@@ -12,7 +14,7 @@
 .icon {
   width: 1.75rem;
   height: 1.75rem;
-  color: var(--dark-default);
+  color: var(--default);
   margin-bottom: -0.25rem; /* Adjust vertical alignment */
 }
 
@@ -20,7 +22,7 @@
 button.default:not(:disabled):active .icon,
 button.default:not(:disabled):hover .icon,
 button.default:not(:disabled):focus .icon {
-  color: var(--light-default);
+  color: var(--contrast);
   outline: none;
   border: none;
   box-shadow: none;

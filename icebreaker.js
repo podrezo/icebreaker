@@ -60,6 +60,11 @@ class QuestionLoader {
         const question = this.questions[this.currentIndex];
         $questionElement.text(question.q);
 
+        // Adjust font-size to fit without causing page scroll
+        if (typeof this.adjustQuestionFont === 'function') {
+            this.adjustQuestionFont();
+        }
+
         // Set question number (index + 1 for 1-based numbering)
         $questionNumberElement.text(`#${this.currentIndex + 1}`);
 
@@ -109,6 +114,44 @@ class QuestionLoader {
             $questionElement.text("Failed to load question. Please try refreshing the page.");
         }
     }
+
+    // Sets up resize/observer and exposes `adjustQuestionFont()` as a helper
+    setupResizer() {
+        const q = document.getElementById('qotd');
+        if (!q) return;
+
+        this._Q_MAX_REM = 3.5;
+        this._Q_MIN_REM = 0.6;
+
+        const setRem = (r) => { q.style.fontSize = r + 'rem'; };
+        const fits = () => document.documentElement.scrollHeight <= window.innerHeight + 1;
+        const debounce = (fn, wait) => {
+            let t;
+            return function() { clearTimeout(t); t = setTimeout(fn, wait); };
+        };
+
+        const findBestSize = () => {
+            let low = this._Q_MIN_REM, high = this._Q_MAX_REM, best = this._Q_MIN_REM;
+            const eps = 0.02;
+            while (high - low > eps) {
+                const mid = (low + high) / 2;
+                setRem(mid);
+                if (fits()) { best = mid; low = mid; } else { high = mid; }
+            }
+            setRem(Math.round(best * 100) / 100);
+        };
+
+        this.adjustQuestionFont = debounce(() => { requestAnimationFrame(findBestSize); }, 80);
+
+        const mo = new MutationObserver(this.adjustQuestionFont);
+        mo.observe(q, { childList: true, subtree: true, characterData: true });
+
+        window.addEventListener('resize', this.adjustQuestionFont, { passive: true });
+
+        // initial run
+        requestAnimationFrame(this.adjustQuestionFont);
+    }
+
 }
 
 // Initialize the question loader when the DOM is loaded
@@ -129,5 +172,10 @@ $(document).ready(() => {
 
     if ($randomBtn.length) {
         $randomBtn.on('click', () => loader.randomQuestion());
+    }
+
+    // initialize resizer helpers attached to the loader
+    if (typeof loader.setupResizer === 'function') {
+        loader.setupResizer();
     }
 });
