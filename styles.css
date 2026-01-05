@@ -9,3 +9,40 @@
   color: var(--dark-default);
   margin-bottom: -0.25rem; /* Adjust vertical alignment */
 }
+
+/* Use a lighter color for SVG icons when the button is hovered or active */
+button.default:not(:disabled):active .icon,
+button.default:not(:disabled):hover .icon,
+button.default:not(:disabled):focus .icon {
+  color: var(--light-default);
+  outline: none;
+  border: none;
+  box-shadow: none;
+  stroke: none;
+}
+
+/* Prevent SVG icons from being text-selected or showing touch highlights */
+.icon,
+.icon use {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove Firefox inner focus border on buttons */
+button.default::-moz-focus-inner {
+  border: 0;
+}
+
+/* Remove focus visuals when focus came from mouse (preserve keyboard focus-visible) */
+button.default:focus:not(:focus-visible),
+button.default:focus:not(:focus-visible) .icon,
+button.default:focus:not(:focus-visible) svg.icon,
+svg.icon:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
