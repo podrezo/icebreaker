@@ -14,7 +14,7 @@ Icebreaker is a lightweight Chrome extension that delivers over 400 fun and enga
 
 Ideal for team leaders, HR professionals, meeting facilitators, and anyone looking to boost team morale and create a more engaging workplace culture.
 
-![Screenshot of Icebreaker extension](images/screenshot.png)
+![Screenshot of Icebreaker extension](images/screenshot.jpg)
 
 ## To do
 

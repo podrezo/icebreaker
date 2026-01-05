@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Icebreaker",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generate icebreaker questions for your next meeting",
   "icons": {
     "16": "images/icon-16.png",
